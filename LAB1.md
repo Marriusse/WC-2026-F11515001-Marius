@@ -286,11 +286,8 @@ Compare the two packets:
 
 Finally, locate:
 
-- Registration Accept
-- Registration Complete
-
-The registration got rejected so we cannot find accepted or completed registration : 
-<img width="1512" height="921" alt="Capture d’écran, le 2026-09-23 à 10 16 54" src="https://github.com/user-attachments/assets/227bfff3-c642-48b8-8b11-b1a97e6e4c61" />
+- Registration Accept : Packet 131
+- Registration Complete : Packet 151
 
 Answer:
 
@@ -325,7 +322,7 @@ Find the PDU Session Establishment Accept and record the UE address:
 
 | Field | Observed value |
 |---|---|
-| UE IPv4 address |  |
+| UE IPv4 address | 10.0.0.2 |
 
 Apply:
 
@@ -338,8 +335,12 @@ Find one ICMP Echo Request and its Echo Reply. Confirm that the UE's IP packet i
 Answer:
 
 1. What IPv4 address was assigned to the UE?
+- 10.0.0.2
 2. How many ICMP Echo Request/Reply pairs are present?
+- There is 10 pairs of ICMP Echo Request/Reply. Each ping generate 4 lines : 
+- <img width="1512" height="802" alt="Capture d’écran, le 2026-09-23 à 10 57 41" src="https://github.com/user-attachments/assets/bb4a0eaf-ddb7-4bd7-9813-85032aa3c6c9" />
 3. What does the successful Echo Reply prove about the UE connection?
+- A successful Echo Reply proves that the UE has successfully established a PDU session and has a fully functional user-plane connection (via the GTP-U tunnel) to transmit IP data. It definitively confirms end-to-end IP reachability between the UE and the external Data Network.
 
 ### Checkpoint 5: UE IP and User Plane — 15 points
 
