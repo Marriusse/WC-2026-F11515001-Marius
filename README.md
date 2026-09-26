@@ -8,6 +8,12 @@
 
 ## :notebook_with_decorative_cover: Assignment
 
+- **LAB0: Basic wireshark operation and capture**
+    - Assignment Information: [Lab0](https://hackmd.io/@Z4OmT2gcTXeLxBPXrn-2SQ/ry3RfjvFMg)
+    - **Deadline : 12:00, Sep. 28**
+    - delivery: [Lab0 Completed](https://github.com/Marriusse/WC-2026-F11515001-Marius/blob/main/LAB0.md)
+   
+
 - **LAB1: Analyzing UE–gNB Connectivity in an OAI 5G SA Network **
     - Assignment Information: [Lab1](https://hackmd.io/A4w9WqU8R4mYgvaWxj6J1A?view)
     - **Deadline : 12:00, Sep. 28**
