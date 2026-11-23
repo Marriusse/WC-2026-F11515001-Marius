@@ -20,7 +20,7 @@
     - Goal:
 In this lab, you will use Wireshark to analyze how a UE establishes an RRC connection with an OAI gNB and then registers with the 5G Core.
     - delivery: [Lab1 Completed](https://github.com/Marriusse/WC-2026-F11515001-Marius/blob/main/LAB1.md)
-    -  [ ] Peer review : [Vote the Top3](https://docs.google.com/forms/d/e/1FAIpQLSeY8uVnBUwJ6l6CwQ6arx3JHthTJupHBeA2WwyD-EUIYqHHrg/viewform?usp=publish-editor) (DL: 23:59, Sep. 30)
+    -  [x] Peer review: [Vote the Top3](https://docs.google.com/forms/d/e/1FAIpQLSeY8uVnBUwJ6l6CwQ6arx3JHthTJupHBeA2WwyD-EUIYqHHrg/viewform?usp=publish-editor) (DL: 23:59, Sep. 30)
       
 
 - **LAB2 : gNB TDD Traffic Analysis**
@@ -29,14 +29,22 @@ In this lab, you will use Wireshark to analyze how a UE establishes an RRC conne
     - Goal:
 In this lab,you will compare three 5-second UDP iperf3 tests. You will learn how TDD slot allocation can affect downlink and uplink performance.
     -  delivery: [Lab2 Completed](https://github.com/Marriusse/WC-2026-F11515001-Marius/blob/62e4f0bd9d43ebcab85843cfd0c3e92a0dd9c030/LAB2.md)
-    -  [ ] Peer review : [Vote the Top3](https://docs.google.com/forms/d/e/1FAIpQLScz-Kt_9ArkXOl8sG99549xqGK7W7vAqoY4lbbc3ph03zvFaw/viewform?usp=publish-editor) (DL: 23:59, Oct.7)
+    -  [x] Peer review: [Vote the Top3](https://docs.google.com/forms/d/e/1FAIpQLScz-Kt_9ArkXOl8sG99549xqGK7W7vAqoY4lbbc3ph03zvFaw/viewform?usp=publish-editor) (DL: 23:59, Oct.7)
 
 - **LAB3: Deploying a 5G Standalone Network with OAI**
     - Assignment Information: [Lab3](https://hackmd.io/_13mS4lLSY-pVwvtiHfPMw)
     - Goal:
 The network is deployed using OpenAirInterface (OAI).
     - Delivery: [Lab3 Completed](https://github.com/Marriusse/WC-2026-F11515001-Marius/blob/main/LAB3.md)
-    - [ ] Peer review : [Vote the Top3](https://docs.google.com/forms/d/e/1FAIpQLSdZU5XDcT-Femoaxh8xfQmv2q19WAvMolqRFi78RIgHxgj8Dw/viewform)
+    - [x] Peer review: [Vote the Top3](https://docs.google.com/forms/d/e/1FAIpQLSdZU5XDcT-Femoaxh8xfQmv2q19WAvMolqRFi78RIgHxgj8Dw/viewform)
+ 
+- **LAB4: O-RAN Advanced**
+  - Assignment Information: [Lab4](https://hackmd.io/@Z4OmT2gcTXeLxBPXrn-2SQ/HkJyZOv2fx/edit)**
+  - Goal:
+The network is deployed using OpenAirInterface (OAI) with an F1-split gNB architecture, where the gNB is separated into a Central Unit (CU) and a Distributed Unit (DU). 
+Students will observe and analyze the communication between different network components, including CU, DU, 5G Core and UEs.  The lab also introduces important protocols such as F1AP, NGAP, GTP, RLC, and E2AP.
+  - Delivery: [Lab4 Folder](https://github.com/Marriusse/WC-2026-F11515001-Marius/tree/6f213fdae2a691832e37619ade1bfaff40e3072e/lab4)
+  - [ ] Peer review: [vote top 3](https://forms.gle/dZknk7FfgeMVy5gW8)
 
 
 
